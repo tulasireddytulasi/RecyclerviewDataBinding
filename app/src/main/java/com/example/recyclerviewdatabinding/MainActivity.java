@@ -45,5 +45,4 @@ public class MainActivity extends AppCompatActivity {
         recyclerAdapter = new RecyclerAdapter(this,userList);
         activityMainBinding.recyclerView.setAdapter(recyclerAdapter);
     }
-
 }
